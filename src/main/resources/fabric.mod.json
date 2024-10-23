@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "radiend",
-	"version": "${version}",
+	"version": "1.0",
 	"name": "Radiend",
 	"description": "Adds radioactivity to the End.",
 	"authors": [
@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"hmm.butterd.radiend.RadiendClient"
+		],
+		"terrablender": [
+			"hmm.butterd.radiend.ModTerraBlenderAPI"
 		]
 	},
 	"mixins": [
@@ -32,6 +35,7 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
+		"geckolib": ">=4.6.4",
 		"fabric-api": "*"
 	},
 	"suggests": {

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "radiend:block/edgepine_slab"
+    },
+    "type=double": {
+      "model": "radiend:block/edgepine_planks"
+    },
+    "type=top": {
+      "model": "radiend:block/edgepine_slab_top"
+    }
+  }
+}

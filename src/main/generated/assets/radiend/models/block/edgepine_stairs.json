@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "radiend:block/edgepine_planks",
+    "side": "radiend:block/edgepine_planks",
+    "top": "radiend:block/edgepine_planks"
+  }
+}

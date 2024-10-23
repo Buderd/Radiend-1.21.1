@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "radiend:block/radium_block"
+    }
+  }
+}

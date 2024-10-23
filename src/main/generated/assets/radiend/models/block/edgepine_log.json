@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "radiend:block/edgepine_log_top",
+    "side": "radiend:block/edgepine_log"
+  }
+}

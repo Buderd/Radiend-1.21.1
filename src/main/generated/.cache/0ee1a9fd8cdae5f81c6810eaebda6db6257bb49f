@@ -1,0 +1,7 @@
+// 1.21.1	2024-10-14T21:28:01.411114	Radiend/Tags for minecraft:block
+8b6af67a3e8b6e27a6bb0fdb5d7d4f846e864402 data/minecraft/tags/block/needs_iron_tool.json
+9e6976a8bd030a73f24ee0d4853de146947cde0c data/minecraft/tags/block/fence_gates.json
+affc6716212aa9d2ff22c04c0a70ad748ff273cf data/minecraft/tags/block/needs_diamond_tool.json
+f5cfac281aa6fbf94cb4e86e2f5f391970781806 data/minecraft/tags/block/wooden_fences.json
+1ac2db34dc02574bd5107b323191e0482c231b99 data/minecraft/tags/block/mineable/pickaxe.json
+7cc27e80c58b9fb619ef0920984d4a11ea227f61 data/minecraft/tags/block/logs_that_burn.json
