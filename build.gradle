@@ -11,12 +11,12 @@ base {
 }
 
 repositories {
+	// Add Maven Central for resolving dependencies
+	mavenCentral()
+
+	// Add Fabric's Maven repository for Fabric-specific libraries
 	maven {
-		name = 'GeckoLib'
-		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
-		content {
-			includeGroup("software.bernie.geckolib")
-		}
+		url "https://maven.fabricmc.net/"
 	}
 }
 
@@ -32,9 +32,6 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${"4.6.4"}"
-
 }
 
 processResources {
@@ -61,7 +58,7 @@ java {
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_${project.base.archivesName.get()}"}
+		rename { "${it}_${project.base.archivesName.get()}" }
 	}
 }
 
@@ -78,7 +75,6 @@ publishing {
 	repositories {
 		// Add repositories to publish to here.
 		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
+		// The repositories here will be used for publishing your artifact, not for retrieving dependencies.
 	}
 }

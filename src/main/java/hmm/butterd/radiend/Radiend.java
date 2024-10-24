@@ -1,9 +1,12 @@
 package hmm.butterd.radiend;
 
 import hmm.butterd.radiend.block.ModBlocks;
+import hmm.butterd.radiend.entity.ModEntities;
+import hmm.butterd.radiend.entity.custom.StarwalkerEntity;
 import hmm.butterd.radiend.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 //Giggity
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
@@ -31,5 +34,8 @@ public class Radiend implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_EDGEPINE_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_EDGEPINE_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.EDGEPINE_LEAVES, 35, 55);
+
+		FabricDefaultAttributeRegistry.register(ModEntities.STARWALKER,
+				StarwalkerEntity.createStarwalkerAttributes());
 	}
 }

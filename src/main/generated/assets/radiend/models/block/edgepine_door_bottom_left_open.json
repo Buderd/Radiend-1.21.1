@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left_open",
-  "textures": {
-    "bottom": "radiend:block/edgepine_door_bottom",
-    "top": "radiend:block/edgepine_door_top"
-  }
-}

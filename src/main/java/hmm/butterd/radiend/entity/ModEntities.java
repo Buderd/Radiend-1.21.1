@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
     public static  final EntityType<StarwalkerEntity> STARWALKER = Registry.register(Registries.ENTITY_TYPE,
-            Identifier.of(Radiend.MOD_ID, "star_walker"),
+            Identifier.of(Radiend.MOD_ID, "starwalker"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, StarwalkerEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 2f)).build());
 
