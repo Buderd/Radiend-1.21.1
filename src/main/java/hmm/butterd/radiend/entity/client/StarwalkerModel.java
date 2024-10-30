@@ -49,6 +49,11 @@ public class StarwalkerModel<T extends StarwalkerEntity> extends SinglePartEntit
 	}
 
 	@Override
+	public void render(MatrixStack matrices, VertexConsumer vertices, int light, int overlay, int color) {
+		starwalker.render(matrices, vertices, light, overlay, color);
+	}
+
+	@Override
 	public ModelPart getPart() {
 		return starwalker;
 	}
